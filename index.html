@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Variables</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>
+    Updating CSS Variables with
+    <span class="baseColor">JS</span>
+  </h1>
+
+  <div class="controls">
+    <label for="spacing">Spacing: </label>
+    <input type="range" name="spacing" min="10" max="100" data-sizing="px" value="10">
+
+    <label for="blur">Blur: </label>
+    <input type="range" name="blur" min="0" max="50" data-sizing="px" value="0">
+
+    <label for="radius">Radius: </label>
+    <input type="range" name="radius" min="0" max="100" data-sizing="px" value="0">
+
+    <label for="opacity">Opacity: </label>
+    <input type="range" name="opacity" min="0" max="100" data-sizing="%" value="100">
+
+    <label for="base">Base Color: </label>
+    <input type="color" name="base" value="#f9bc60">
+  </div>
+
+  <img src="wallpaper.jpg" alt="Photo of river in Tigre, Buenos Aires, Argentina">
+  
+  <script src="index.js"></script>
+</body>
+</html>

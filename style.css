@@ -1,0 +1,41 @@
+:root {
+  --base: #f9bc60;
+  --spacing: 10px;
+  --blur: 0px;
+  --radius: 0px;
+  --opacity: 100%;
+}
+
+html {
+  background-color: #004643;
+  font-size: 1.25rem;
+  color: #fffffe;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+div {
+  padding: 1.25rem;
+}
+
+img {
+  max-width: 75%;
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+  filter: opacity(var(--opacity));
+  border-radius: var(--radius);
+}
+
+div .baseColor {
+  background-color: var(--base);
+}
+
+.baseColor {
+  color: var(--base);
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+}
