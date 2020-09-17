@@ -22,8 +22,7 @@ img {
   max-width: 75%;
   padding: var(--spacing);
   background: var(--base);
-  filter: blur(var(--blur));
-  filter: opacity(var(--opacity));
+  filter: blur(var(--blur)) opacity(var(--opacity));
   border-radius: var(--radius);
 }
 
